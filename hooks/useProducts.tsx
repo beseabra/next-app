@@ -10,7 +10,7 @@ interface Product {
   price: string;
   createdAt: string;
   updatedAt: string;
-  quantity?: number;
+  quantity: number;
 }
 
 const URL_API =
